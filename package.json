@@ -1,0 +1,17 @@
+{
+  "name": "zod-model",
+  "version": "0.0.1",
+  "description": "Utility classes for creation validation models with zod",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "zod": "^3.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.1",
+    "typescript": "^4.7.4"
+  }
+}
