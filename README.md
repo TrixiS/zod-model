@@ -62,7 +62,7 @@ So, "age" has been added with default value from schema
 
 ```JavaScript
 {
-  "name": "Marry Popping",
+  "name": "Marry Poppins",
   "age": 18
 }
 ```
