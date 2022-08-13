@@ -4,8 +4,6 @@
 ## Model
 ### Base model, allows you to parse json strings and files
 
----
-
 ```JavaScript
 import { z } from "zod";
 import { Model } from "zod-model";
@@ -26,7 +24,6 @@ const parsedFileJsonObject = model.parseFile("data.json", { encoding: "utf-8" })
 
 ## Config
 ### Model subclass with methods to update/refresh data using zod schemas
----
 
 ### Suppose we have such json file "data.json"
 ```JSON
@@ -63,7 +60,7 @@ config.updateFile("data.json", {
 
 So, "age" has been added with default value from schema
 
-```JSON
+```JavaScript
 {
   "name": "Marry Popping",
   "age": 18
@@ -86,7 +83,7 @@ config.refreshFile("data.json", { encoding: "utf-8" }); // still the same json f
 ```
 
 ### Json content would become
-```JSON
+```JavaScript
 {
   "name": "John Doe",
   "age": 18
