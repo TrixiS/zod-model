@@ -1,6 +1,6 @@
 {
   "name": "zod-model",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utility classes for creation validation models with zod",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
