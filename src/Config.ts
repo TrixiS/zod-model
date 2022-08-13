@@ -19,7 +19,7 @@ export class Config<T extends ZodRawShape> extends Model<T> {
     return fs.writeFileSync(file, objectJson, options?.write);
   }
 
-  refreshFile(file: fs.PathOrFileDescriptor, options: fs.WriteFileOptions) {
+  refreshFile(file: fs.PathOrFileDescriptor, options?: fs.WriteFileOptions) {
     const defaultObject = this.schema.parse({});
     const objectJson = JSON.stringify(defaultObject, null, 2);
     return fs.writeFileSync(file, objectJson, options);
