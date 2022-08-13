@@ -1,6 +1,8 @@
 # Zod model 
 ### Use zod schemas with json strings and files
 
+[GitHub](https://github.com/TrixiS/zod-model)
+
 ## Model
 ### Base model, allows you to parse json strings and files
 
